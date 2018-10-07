@@ -28,7 +28,6 @@ config= {
 ## 2.- Hyperparameters selection
 
 ## 3.- Solution
-![](images/Tennis-first-success-node-128-sigma-0.1.gif)
 
 <p align="center">
   <img src="images/Tennis-sigma-0.01-actor-64.png">
@@ -38,7 +37,6 @@ config= {
   <img src="images/Tennis-first-success-node-128-sigma-0.1.gif">
 </p>
 
-![](images/Tennis-first-success-node-128-sigma-0.1.gif)
 
 ## 4.- Conclusions
 
