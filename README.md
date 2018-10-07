@@ -5,7 +5,9 @@
 # Project: Collaboration and Competition
 
 ### Introduction
+
 This project is part of the [Udacity Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).
+
 For this project, you will work with the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment which is part of the [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents).
 
 ![Trained Agent][image1]
