@@ -12,6 +12,41 @@ The agents (2) are implemented in [Agents.py](Agents.py). This class depends on 
 It is considered that the agents have learned when they get a +0.5 combined reward for 100 episodes.
 
 ## 1.- First steps
+
+I started out with the DDPG agent from a [previous project](https://github.com/gregoriomezquita/DRL_Reacher).
+I have reduced the number of fully connected layers from 4 to 3 in the definition of the critic to reduce complexity and gain a bit in process speed.
+Finally the Actor consists of 3 fully connected layers with Relu activations and a final Tanh non-linear output.
+```
+Actor(
+  (model): Sequential(
+    (0): BatchNorm1d(24, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (1): Linear(in_features=24, out_features=128, bias=True)
+    (2): ReLU()
+    (3): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (4): Linear(in_features=128, out_features=128, bias=True)
+    (5): ReLU()
+    (6): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (7): Linear(in_features=128, out_features=2, bias=True)
+    (8): Tanh()
+  )
+)
+```
+The Critic has also 3 fully connected layers with Relu activations.
+```
+Critic(
+  (model_input): Sequential(
+    (0): Linear(in_features=24, out_features=128, bias=True)
+    (1): ReLU()
+    (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (model_output): Sequential(
+    (0): Linear(in_features=130, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=1, bias=True)
+  )
+)
+```
+
 The following hyperparameters are the starting point:
 ```
 config= {
