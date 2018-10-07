@@ -10,10 +10,35 @@ The agents (2) are implemented in [Agents.py](Agents.py). This class depends on 
 It is considered that the agents have learned when they get a +0.5 combined reward for 100 episodes.
 
 ## 1.- First steps
+The following hyperparameters are the starting point:
+```
+config= {
+    "actor_lr": 0.001,
+    "critic_lr": 0.001,
+    "actor_nodes": [128, 128],
+    "critic_nodes": [128, 128],
+    "batch_size": 512,
+    "memory_size": 100000,
+    "discount": 0.9,
+    "sigma": 0.1, # OUNoise
+    "tau": 0.001,
+}
+```
 
 ## 2.- Hyperparameters selection
 
 ## 3.- Solution
+![](images/Tennis-first-success-node-128-sigma-0.1.gif)
+
+<p align="center">
+  <img src="images/Tennis-sigma-0.01-actor-64.png">
+</p>
+
+<p align="center">
+  <img src="images/Tennis-first-success-node-128-sigma-0.1.gif">
+</p>
+
+![](images/Tennis-first-success-node-128-sigma-0.1.gif)
 
 ## 4.- Conclusions
 
