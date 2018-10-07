@@ -4,11 +4,11 @@
 [image2]: https://user-images.githubusercontent.com/10624937/42135622-e55fb586-7d12-11e8-8a54-3c31da15a90a.gif "Soccer"
 
 
-# Project 3: Collaboration and Competition
+# Project: Collaboration and Competition
 
 ### Introduction
 
-For this project, you will work with the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment.
+For this project, you will work with the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment which is part of the [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents).
 
 ![Trained Agent][image1]
 
@@ -22,6 +22,9 @@ The task is episodic, and in order to solve the environment, your agents must ge
 - This yields a single **score** for each episode.
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
+
+### Dependencies
+If you haven't already, please follow the [instructions in the DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) to set up your Python environment. These instructions can be found in README.md at the root of the repository. By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
 
 ### Getting Started
 
