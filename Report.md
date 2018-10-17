@@ -14,6 +14,7 @@ It is considered that the agents have learned when they get a +0.5 combined rewa
 ## 1.- First steps
 
 I started out with the DDPG agent from a [previous project](https://github.com/gregoriomezquita/ml-agents/tree/master/Reacher).
+
 Actor network consists of 3 fully connected layers with Relu activations and a final Tanh non-linear output.
 ```
 Actor(
