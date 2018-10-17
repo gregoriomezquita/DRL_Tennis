@@ -13,9 +13,8 @@ It is considered that the agents have learned when they get a +0.5 combined rewa
 
 ## 1.- First steps
 
-I started out with the DDPG agent from a [previous project](https://github.com/gregoriomezquita/DRL_Reacher).
-I have reduced the number of fully connected layers from 4 to 3 in the definition of the critic to reduce complexity and gain a bit in process speed.
-Finally the Actor consists of 3 fully connected layers with Relu activations and a final Tanh non-linear output.
+I started out with the DDPG agent from a [previous project](https://github.com/gregoriomezquita/ml-agents/tree/master/Reacher).
+Actor network consists of 3 fully connected layers with Relu activations and a final Tanh non-linear output.
 ```
 Actor(
   (model): Sequential(
@@ -50,15 +49,17 @@ Critic(
 The following hyperparameters are the starting point:
 ```
 config= {
-    "actor_lr": 0.001,
-    "critic_lr": 0.001,
-    "actor_nodes": [128, 128],
+    "actor_lr": 1e-3,
+    "critic_lr": 1e-3,
+    "actor_nodes": [32, 32],
     "critic_nodes": [128, 128],
-    "batch_size": 512,
+    "batch_size": 256,
     "memory_size": 100000,
     "discount": 0.9,
-    "sigma": 0.1, # OUNoise
     "tau": 0.001,
+    "action_noise": "No",    # Options: No, Normal, OU, 
+    "sigma": 0.1,            # OUNoise, Normal
+    "critic_l2_reg": 0.0,  # 1e-2
 }
 ```
 
