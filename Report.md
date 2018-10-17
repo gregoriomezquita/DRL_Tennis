@@ -46,7 +46,7 @@ Critic(
   )
 )
 ```
-
+Cada agente aprende de su propia experiencia.
 The following hyperparameters are the starting point:
 ```
 config= {
@@ -65,7 +65,7 @@ config= {
 ```
 
 ## 2.- Hyperparameters selection
-
+Primero empezaremos modficando el ruido exploratorio para saber si tiene tan buen resultado como en el [proyecto](https://github.com/gregoriomezquita/DRL_Tennis/blob/master/Report.md) de partida.
 ## 3.- Solution
 
 <p align="center">
