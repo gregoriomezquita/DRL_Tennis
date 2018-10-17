@@ -76,7 +76,7 @@ What happens if we combine the experience of all the agents in such a way that e
 
 <p align="center">
   <img src="images/Tennis-sigma-0.01-actor-64.png">
-  <figcaption>sigma-0.01-actor-64 rewards plot</figcaption>
+  <figcaption align="center">sigma-0.01-actor-64 rewards plot</figcaption>
 </p>
 
 <figure align="center">
