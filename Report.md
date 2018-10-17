@@ -65,11 +65,12 @@ config= {
 ```
 
 ## 2.- Hyperparameters selection
-Primero empezaremos modficando el ruido exploratorio para saber si tiene tan buen resultado como en el [proyecto](https://github.com/gregoriomezquita/ml-agents/tree/master/Reacher/Report.md) de partida.
+First we will start modifying the exploratory noise to know if it has as good result as in the [starting project](https://github.com/gregoriomezquita/ml-agents/tree/master/Reacher/Report.md).
 
 We can verify that the same result is produced as before: the agents learn faster without exploratory action noise (Ornstein-Uhlenbeck noise).
 We also see that actor and critic's model definitions are valid in this case.
-And finally, we see that agents are able to learn to compete only with their own experience
+And finally, we see that agents are able to learn to compete only with their own experience.
+
 What happens if we combine the experience of all the agents in such a way that each agent also learns from the experience of the others?
 ## 3.- Solution
 
