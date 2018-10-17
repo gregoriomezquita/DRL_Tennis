@@ -20,13 +20,13 @@ Finally the Actor consists of 3 fully connected layers with Relu activations and
 Actor(
   (model): Sequential(
     (0): BatchNorm1d(24, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-    (1): Linear(in_features=24, out_features=128, bias=True)
+    (1): NoisyLinear (24 -> 32, Factorized: True)
     (2): ReLU()
-    (3): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-    (4): Linear(in_features=128, out_features=128, bias=True)
+    (3): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (4): NoisyLinear (32 -> 32, Factorized: True)
     (5): ReLU()
-    (6): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-    (7): Linear(in_features=128, out_features=2, bias=True)
+    (6): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (7): NoisyLinear (32 -> 2, Factorized: True)
     (8): Tanh()
   )
 )
