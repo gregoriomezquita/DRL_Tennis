@@ -80,8 +80,8 @@ What happens if we combine the experience of all the agents in such a way that e
 </p>
 
 <figure align="center">
-    <img src="images/Tennis-first-success-node-128-sigma-0.1.gif" alt="Agents behaviour" id="fig_id" title="Agents behaviour" style="height:45px;width:120px;">
-    <figcaption>Agents behavioun</figcaption>
+    <img src="images/Tennis-first-success-node-128-sigma-0.1.gif" alt="Agents behaviour" id="fig_id" title="Agents behaviour" style="center">
+    <figcaption>Agents behaviour</figcaption>
 </figure>
 <p align="center">
   <img src="images/Tennis-first-success-node-128-sigma-0.1.gif">
