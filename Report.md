@@ -83,7 +83,7 @@ What happens if we combine the experience of all the agents in such a way that e
 <p align="center">
     <img src="images/Tennis-first-success-node-128-sigma-0.1.gif" alt="dominating_sets_example2"/>
     <br>
-    <em>Fig. 2: Solution behaviour</em>
+    <em><b>Fig. 2: Solution behaviour</b></em>
 </p>>
 
 
