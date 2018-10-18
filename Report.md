@@ -75,7 +75,7 @@ It is important to point out that in order to compare the results it is necessar
   <em><b>Fig. 1: Self-experience-sigma</b></em>
 </p>
 <p align="center">
-  <img src="images/Combied-experience-sigma.png">
+  <img src="images/Combined-experience-sigma.png">
   <br>
   <em><b>Fig. 1: Self-experience-sigma</b></em>
 </p>
