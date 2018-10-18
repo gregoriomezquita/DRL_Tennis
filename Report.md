@@ -72,12 +72,12 @@ It is important to point out that in order to compare the results it is necessar
 <p align="center">
   <img src="images/Self-experience-OU-noise.png">
   <br>
-  <em><b>Fig. 1: Self experience Ornstein-Uhlenbeck noise</b></em>
+  <em><b>Fig. 1: Self-experience Ornstein-Uhlenbeck noise comparation</b></em>
 </p>
 <p align="center">
-  <img src="images/Combined-experience-sigma.png">
+  <img src="images/Combined-experience-noise.png">
   <br>
-  <em><b>Fig. 2: Combined-experience-sigma</b></em>
+  <em><b>Fig. 2: Combined-experience noise comparation</b></em>
 </p>
 
 We can verify that the same result is produced as before: the agents learn faster without exploratory action noise (Ornstein-Uhlenbeck noise).
