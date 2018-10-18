@@ -69,6 +69,12 @@ First we will start modifying the exploratory noise to know if it has as good re
 
 It is important to point out that in order to compare the results it is necessary to reset the kernel of the notebook otherwise the seed of the environment is not the same.
 
+<p align="center">
+  <img src="images/Self-experience-sigma.png">
+  <br>
+  <em><b>Fig. 1: Self-experience-sigma</b></em>
+</p>
+
 We can verify that the same result is produced as before: the agents learn faster without exploratory action noise (Ornstein-Uhlenbeck noise).
 We also see that actor and critic's model definitions are valid in this case.
 And finally, we see that agents are able to learn to compete only with their own experience.
