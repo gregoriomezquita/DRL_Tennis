@@ -74,6 +74,11 @@ It is important to point out that in order to compare the results it is necessar
   <br>
   <em><b>Fig. 1: Self-experience-sigma</b></em>
 </p>
+<p align="center">
+  <img src="images/Combied-experience-sigma.png">
+  <br>
+  <em><b>Fig. 1: Self-experience-sigma</b></em>
+</p>
 
 We can verify that the same result is produced as before: the agents learn faster without exploratory action noise (Ornstein-Uhlenbeck noise).
 We also see that actor and critic's model definitions are valid in this case.
