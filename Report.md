@@ -76,18 +76,14 @@ What happens if we combine the experience of all the agents in such a way that e
 
 <p align="center">
   <img src="images/Tennis-sigma-0.01-actor-64.png">
-  <figcaption align="center">sigma-0.01-actor-64 rewards plot</figcaption>
+  <em><br>Fig. 2: Solution rewards plot</br></em>
 </p>
 
 <p align="center">
     <img src="images/Tennis-first-success-node-128-sigma-0.1.gif" alt="dominating_sets_example2"/>
     <br>
-    <em>Fig. 2: The minimum dominating set of a graph</em>
+    <em>Fig. 2: Solution behaviour</em>
 </p>>
-
-<p align="center">
-  <img src="images/Tennis-first-success-node-128-sigma-0.1.gif">
-</p>
 
 
 ## 4.- Conclusions
