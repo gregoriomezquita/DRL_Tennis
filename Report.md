@@ -72,7 +72,7 @@ It is important to point out that in order to compare the results it is necessar
 <p align="center">
   <img src="images/Self-experience-OU-noise.png">
   <br>
-  <em><b>Fig. 1: Self experience OU noise</b></em>
+  <em><b>Fig. 1: Self experience Ornstein-Uhlenbeck noise</b></em>
 </p>
 <p align="center">
   <img src="images/Combined-experience-sigma.png">
