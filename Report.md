@@ -79,6 +79,8 @@ What happens if we combine the experience of all the agents in such a way that e
   <figcaption align="center">sigma-0.01-actor-64 rewards plot</figcaption>
 </p>
 
+![my image](images/Tennis-first-success-node-128-sigma-0.1.gif#center)
+
 <figure align="center">
     <img src="images/Tennis-first-success-node-128-sigma-0.1.gif" alt="Agents behaviour" id="fig_id" title="Agents behaviour" style="align:center">
     <figcaption>Agents behaviour</figcaption>
