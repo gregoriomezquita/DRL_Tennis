@@ -70,9 +70,9 @@ First we will start modifying the exploratory noise to know if it has as good re
 It is important to point out that in order to compare the results it is necessary to reset the kernel of the notebook otherwise the seed of the environment is not the same.
 
 <p align="center">
-  <img src="images/Self-experience-sigma.png">
+  <img src="images/Self-experience-OU-noise.png">
   <br>
-  <em><b>Fig. 1: Self-experience-OU-noise</b></em>
+  <em><b>Fig. 1: Self experience OU noise</b></em>
 </p>
 <p align="center">
   <img src="images/Combined-experience-sigma.png">
