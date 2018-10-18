@@ -88,7 +88,7 @@ What happens if we combine the experience of all the agents in such a way that e
 ## 3.- Solution
 
 <p align="center">
-  <img src="images/Tennis-sigma-0.01-actor-64.png">
+  <img src="images/Agents-noisy-476.png">
   <br>
   <em><b>Fig. 2: Solution rewards plot</b></em>
 </p>
