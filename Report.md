@@ -104,7 +104,7 @@ What happens if we combine the experience of all the agents in such a way that e
 <p align="center">
   <img src="images/Actor-lr.png">
   <br>
-  <em><b>Fig. 3: Diferent Actor learnin rates</b></em>
+  <em><b>Fig. 3: Diferent Actor learning rates</b></em>
 </p>
 
 <p align="center">
