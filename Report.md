@@ -86,17 +86,25 @@ It is important to point out that in order to compare the results it is necessar
   <em><b>Fig. 2: Combined-experience noise comparation</b></em>
 </p>
 
+
 We can verify that the same result is produced as before: the agents learn faster without exploratory action noise (Ornstein-Uhlenbeck noise).
 We also see that actor and critic's model definitions are valid in this case.
 And finally, we see that agents are able to learn to compete only with their own experience.
 
 What happens if we combine the experience of all the agents in such a way that each agent also learns from the experience of the others?
+
+<p align="center">
+  <img src="images/Combined-experience-noise.png">
+  <br>
+  <em><b>Fig. 2: Combined-experience noise comparation</b></em>
+</p>
+
 ## 3.- Solution
 
 <p align="center">
-  <img src="images/Agents-noisy-476.png">
+  <img src="images/Agents-actor-lr.png">
   <br>
-  <em><b>Fig. 2: Solution rewards plot</b></em>
+  <em><b>Fig. 3: Diferent Actor learnin rates</b></em>
 </p>
 
 <p align="center">
