@@ -83,7 +83,7 @@ It is important to point out that in order to compare the results it is necessar
 <p align="center">
   <img src="images/Combined-experience-noise.png">
   <br>
-  <em><b>Fig. 2: Combined-experience noise comparation</b></em>
+  <em><b>Fig. 2: Combined-experience noise comparison</b></em>
 </p>
 
 
@@ -96,7 +96,7 @@ What happens if we combine the experience of all the agents in such a way that e
 <p align="center">
   <img src="images/Combined-experience-noise.png">
   <br>
-  <em><b>Fig. 2: Combined-experience noise comparation</b></em>
+  <em><b>Fig. 2: Combined-experience noise comparison</b></em>
 </p>
 
 ## 3.- Solution
