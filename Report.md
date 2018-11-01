@@ -19,6 +19,12 @@ Veremos tres tipos de implementación:
   <img src="images/Experience-self.png">
   <br>
 </p>
+2.- Cada agente aprende de la experiencia de todos.
+<p align="center">
+  <img src="images/Experience-all.png">
+  <br>
+</p>
+
 Tambien he introducido otro enfoque para el ruido exploratorio tal como se sugiere en [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/).
 Para ello sustituyo todos los Linear layers del actor por [NoisyLinear](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py) layers como sugiere [jvmancuso](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py).
 
