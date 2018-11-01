@@ -11,6 +11,9 @@ The third and last cell is to see how the agents behave once trained.
 The agents (2) are implemented in [Agents.py](Agents.py). This class depends on [ddpg.py](ddpg.py) and  [model.py](model.py). The first define one single agent following [DDPG algorithm](https://arxiv.org/abs/1509.02971) and the second define the network chosen for an agent.
 
 [Agents.py] contiene la definicion de n agentes independientes que pueden aprender de su propia experiencia o de la experiencia de todos.
+Veremos tres tipos de implementación:
+1.- Cada agente aprende de su propia experiencia. This is some <sup>superscript</sup> text.
+
 <p align="center">
   <img src="images/Experience-self.png">
   <br>
