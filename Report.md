@@ -14,9 +14,9 @@ The agents (2) are implemented in [Agents.py](Agents.py). This class depends on 
 Veremos tres tipos de implementación:
 
 1.- Cada agente aprende de su propia experiencia. 
-<p align="center"> 
+<h1 align="center"> 
 o<sup>i</sup><sub>t</sub>, a<sup>i</sup><sub>t</sub>, r<sup>i</sup><sub>t</sub>, o<sup>i</sup><sub>t+1</sub> 
-</p>
+</h1>
 
 <p align="center">
   <img src="images/Experience-self.png">
