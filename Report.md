@@ -24,6 +24,12 @@ Veremos tres tipos de implementación:
   <img src="images/Experience-all.png">
   <br>
 </p>
+3.- Multi-agent. Critic part of each agent is feeded with the following tuples
+<p align="center">
+  <img src="images/Experience-ma.png">
+  <br>
+</p>
+where o<sub>t</sub> is the concatenation of all agent's observation plus their actions.
 
 Tambien he introducido otro enfoque para el ruido exploratorio tal como se sugiere en [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/).
 Para ello sustituyo todos los Linear layers del actor por [NoisyLinear](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py) layers como sugiere [jvmancuso](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py).
