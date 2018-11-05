@@ -94,15 +94,7 @@ config= {
 
 
 
-| Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
-| :---: | :---: | :---: | :---: | ---: | ---: |
-| Param | all | no | [32, 32], [128, 128] | 476 | 1.3 |
-| Param | all | no | [32, 32], [256, 256] | 794 | 2.1 |
-| Param | all | no | [64, 32], [256, 128] | 1323 | 1.2 |
-| Param | all | no | [32, 16], [256, 128] | 1761 | 0.6 |
-| OU | self | yes | [32, 32], [128, 128] | 2000+ | 0.4 |
-| OU | self | yes | [32, 32], [256, 256] | 2000+ | 0.1 |
-| OU | self | yes | [64, 64], [256, 256] | 1599 | 2.0 |
+
 
 
 First we will start modifying the exploratory noise to know if it has as good result as in the [starting project](https://github.com/gregoriomezquita/ml-agents/tree/master/Reacher/Report.md).
@@ -128,7 +120,7 @@ What happens if we combine the experience of all the agents in such a way that e
   <em><b>Fig. 2: Combined-experience noise comparison</b></em>
 </p>
 
-## 3.- Solution
+
 
 <p align="center">
   <img src="images/Actor-lr.png">
@@ -147,6 +139,19 @@ What happens if we combine the experience of all the agents in such a way that e
   <br>
   <em><b>Fig. 3: Diferent Actor-Critic node size</b></em>
 </p>
+
+| Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
+| :---: | :---: | :---: | :---: | ---: | ---: |
+| Param | all | no | [32, 32], [128, 128] | 476 | 1.3 |
+| Param | all | no | [32, 32], [256, 256] | 794 | 2.1 |
+| Param | all | no | [64, 32], [256, 128] | 1323 | 1.2 |
+| Param | all | no | [32, 16], [256, 128] | 1761 | 0.6 |
+| OU | self | yes | [32, 32], [128, 128] | 2000+ | 0.4 |
+| OU | self | yes | [32, 32], [256, 256] | 2000+ | 0.1 |
+| OU | self | yes | [64, 64], [256, 256] | 1599 | 2.0 |
+
+## 3.- Solution
+
 
 <p align="center">
     <img src="images/Tennis-first-success-node-128-sigma-0.1.gif" alt="dominating_sets_example2"/>
