@@ -91,6 +91,20 @@ config= {
 ```
 
 ## 2.- Hyperparameters selection
+
+
+
+| Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
+| :---: | :---: | :---: | :---: | ---: | ---: |
+| Param | all | no | [32, 32], [128, 128] | 476 | 1.3 |
+| Param | all | no | [32, 32], [256, 256] | 794 | 2.1 |
+| Param | all | no | [64, 32], [256, 128] | 1323 | 1.2 |
+| Param | all | no | [32, 16], [256, 128] | 1761 | 0.6 |
+| OU | self | yes | [32, 32], [128, 128] | 2000+ | 0.4 |
+| OU | self | yes | [32, 32], [256, 256] | 2000+ | 0.1 |
+| OU | self | yes | [64, 64], [256, 256] | 1599 | 2.0 |
+
+
 First we will start modifying the exploratory noise to know if it has as good result as in the [starting project](https://github.com/gregoriomezquita/ml-agents/tree/master/Reacher/Report.md).
 
 It is important to point out that in order to compare the results it is necessary to reset the kernel of the notebook otherwise the seed of the environment is not the same.
@@ -142,5 +156,6 @@ What happens if we combine the experience of all the agents in such a way that e
 
 
 ## 4.- Conclusions
-
+. Parameter noise puede ser mejor que otros tipos de ruido.
+. Debido 
 ## 5.- Improvements
