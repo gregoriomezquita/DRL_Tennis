@@ -156,6 +156,9 @@ What happens if we combine the experience of all the agents in such a way that e
 
 
 ## 4.- Conclusions
-. Parameter noise puede ser mejor que otros tipos de ruido.
-. Debido 
+1. Parameter noise puede ser mejor que otros tipos de ruido.
+2. Debido a la naturaleza simerica de los jugadores de tennis los jugadores pueden aprender sin necesidad de un esquema multi-agente.
 ## 5.- Improvements
+1. Probar otros tipos de ruido exploratorio.
+2. Modificar tau para ver las consecuencias.
+3. Probar en entornos con jugadores con diferentes roles.
