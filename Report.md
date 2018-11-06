@@ -157,6 +157,7 @@ La siguiente es una tabla que incluye la puntuacion media en 100 partidas en la 
 | No | self | yes | [64, 64], [512, 512] | 2000+ | 0.1 |
 | No | self | yes | [128, 128], [512, 512] | 3000+ | 0.3 |
 | Normal | self | yes | [64, 64], [256, 256] | 1468 | 0.6 |
+| Normal | self | yes | [64, 64], [512, 512] | 2000+8 | 0.2 |
 
 ## 3.- Solution
 
