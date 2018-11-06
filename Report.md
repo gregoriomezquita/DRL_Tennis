@@ -149,6 +149,8 @@ What happens if we combine the experience of all the agents in such a way that e
 | OU | self | yes | [32, 32], [128, 128] | 2000+ | 0.4 |
 | OU | self | yes | [32, 32], [256, 256] | 2000+ | 0.1 |
 | OU | self | yes | [64, 64], [256, 256] | 1599 | 2.0 |
+| OU | self | yes | [128, 64], [256, 256] | 200+ | 0.2 |
+| No | self | yes | [64, 64], [256, 256] | 1599 | 2.0 |
 
 ## 3.- Solution
 
@@ -163,6 +165,7 @@ What happens if we combine the experience of all the agents in such a way that e
 ## 4.- Conclusions
 1. Parameter noise puede ser mejor que otros tipos de ruido.
 2. Debido a la naturaleza simerica de los jugadores de tennis los jugadores pueden aprender sin necesidad de un esquema multi-agente.
+3. Criterio de resolución.
 ## 5.- Improvements
 1. Probar otros tipos de ruido exploratorio.
 2. Modificar tau para ver las consecuencias.
