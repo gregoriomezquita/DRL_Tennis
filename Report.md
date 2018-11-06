@@ -150,7 +150,7 @@ What happens if we combine the experience of all the agents in such a way that e
 | OU | self | yes | [32, 32], [256, 256] | 2000+ | 0.1 |
 | OU | self | yes | [64, 64], [256, 256] | 1599 | 2.0 |
 | OU | self | yes | [128, 64], [256, 256] | 200+ | 0.2 |
-| No | self | yes | [64, 64], [256, 256] | 1599 | 2.0 |
+| No | self | yes | [64, 64], [256, 256] | 1497 | 0.5 |
 
 ## 3.- Solution
 
