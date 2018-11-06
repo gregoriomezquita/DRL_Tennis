@@ -162,7 +162,7 @@ La siguiente es una tabla que incluye la puntuacion media en 100 partidas en la 
 | Normal | self | yes | [64, 64], [256, 256] | 1468 | 0.6 |
 | Normal | self | yes | [64, 64], [512, 512] | 2000+ | 0.2 |
 | Normal | self | yes | [64, 32], [256, 128] | 1221 | 1.6 |
-| Normal | all | yes | [64, 32], [256, 128] |  |  |
+| Normal | all | yes | [64, 32], [256, 128] | 2000+ | 0.1 |
 
 ## 3.- Solution
 
