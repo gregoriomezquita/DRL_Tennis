@@ -140,6 +140,9 @@ What happens if we combine the experience of all the agents in such a way that e
   <em><b>Fig. 3: Diferent Actor-Critic node size</b></em>
 </p>
 
+Normalmente se busca el mejor conjunto de hyper parametros que nos dé un mejo resultado en términos de rapidez de aprendizaje. Sin embargo no siempre este criterio conduce a un desempeño mejor de los jugadores. Para comparar resultados es necesario que los agentes, una vez que han aprendido, jueguen 100 partidas y ver cuál es su media.
+La siguiente es una tabla que incluye la puntuacion media en 100 partidas en la última columna:
+
 | Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
 | :---: | :---: | :---: | :---: | ---: | ---: |
 | Param | all | no | [32, 32], [128, 128] | 476 | 1.3 |
