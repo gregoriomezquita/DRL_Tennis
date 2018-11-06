@@ -154,6 +154,9 @@ La siguiente es una tabla que incluye la puntuacion media en 100 partidas en la 
 | OU | self | yes | [64, 64], [256, 256] | 1599 | 2.0 |
 | OU | self | yes | [128, 64], [256, 256] | 2000+ | 0.2 |
 | No | self | yes | [64, 64], [256, 256] | 1497 | 0.5 |
+| No | self | yes | [64, 64], [512, 512] | 2000+ | 0.1 |
+| No | self | yes | [128, 128], [512, 512] | 3000+ | 0.3 |
+| Normal | self | yes | [64, 64], [256, 256] | 1468 | 0.6 |
 
 ## 3.- Solution
 
