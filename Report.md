@@ -149,6 +149,7 @@ La siguiente es una tabla que incluye la puntuacion media en 100 partidas en la 
 | Param | all | no | [32, 32], [256, 256] | 794 | 2.1 |
 | Param | all | no | [64, 32], [256, 128] | 1323 | 1.2 |
 | Param | all | no | [32, 16], [256, 128] | 1761 | 0.6 |
+| Param | all | yes | [32, 32], [256, 256] |  |  |
 | OU | self | yes | [32, 32], [128, 128] | 2000+ | 0.4 |
 | OU | self | yes | [32, 32], [256, 256] | 2000+ | 0.1 |
 | OU | self | yes | [64, 64], [256, 256] | 1599 | 2.0 |
@@ -159,7 +160,9 @@ La siguiente es una tabla que incluye la puntuacion media en 100 partidas en la 
 | No | all | yes | [64, 64], [256, 256] | 2002 | 0.1 |
 | No | all | yes | [32, 32], [256, 256] | 1479 | 0.9 |
 | Normal | self | yes | [64, 64], [256, 256] | 1468 | 0.6 |
-| Normal | self | yes | [64, 64], [512, 512] | 2000+8 | 0.2 |
+| Normal | self | yes | [64, 64], [512, 512] | 2000+ | 0.2 |
+| Normal | self | yes | [64, 32], [256, 128] | 1221 | 1.6 |
+| Normal | all | yes | [64, 32], [256, 128] |  |  |
 
 ## 3.- Solution
 
