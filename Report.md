@@ -169,6 +169,8 @@ Changing `batch_size= 512` we get the following:
 | Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
 | :---: | :---: | :---: | :---: | ---: | ---: |
 | Param | self | yes | [64, 64], [256, 256] | 1850 | 0.7 |
+| Param | self | yes | [128, 128], [512, 512] | 1665 | 1.8 |
+| Param | all | yes | [128, 128], [512, 512] | 1851 | 0.3 |
 | OU | self | yes | [64, 64], [256, 256] | 1683 | 1.9 |
 | No | self | yes | [64, 64], [256, 256] | 1903 | 2.2 |
 | No | all | yes | [64, 64], [256, 256] | 1644 | 0.7 |
