@@ -171,7 +171,9 @@ Changing `batch_size= 512` we get the following:
 | Param | self | yes | [64, 64], [256, 256] | 1850 | 0.7 |
 | OU | self | yes | [64, 64], [256, 256] | 1683 | 1.9 |
 | No | self | yes | [64, 64], [256, 256] | 1903 | 2.2 |
-| No | all | yes | [64, 64], [256, 256] |  |  |
+| No | all | yes | [64, 64], [256, 256] | 1644 | 0.7 |
+| Normal | self | yes | [64, 64], [256, 256] | 1785 | 0.5 |
+| Normal | self | yes | [128, 128], [512, 512] | 1416 | 1.7 |
 
 
 ## 3.- Solution
