@@ -164,6 +164,15 @@ La siguiente es una tabla que incluye la puntuacion media en 100 partidas en la 
 | Normal | self | yes | [64, 32], [256, 128] | 1221 | 1.6 |
 | Normal | all | yes | [64, 32], [256, 128] | 2000+ | 0.1 |
 
+Changing `batch_size= 512` we get the following:
+
+| Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
+| :---: | :---: | :---: | :---: | ---: | ---: |
+| Param | self | yes | [64, 64], [256, 256] | 1850 | 0.7 |
+| OU | self | yes | [64, 64], [256, 256] | 1683 | 1.9 |
+| No | self | yes | [64, 64], [256, 256] | 103 | 2.2 |
+
+
 ## 3.- Solution
 
 
