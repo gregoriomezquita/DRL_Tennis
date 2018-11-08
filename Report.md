@@ -8,10 +8,13 @@ The first cell of the notebook is to set the environment plus some functions to 
 In the second code cell is where the agents are trained to learn the task acording with a certain hyperparameters.
 The third and last cell is to see how the agents behave once trained.
 
-The agents (2) are implemented in [Agents.py](Agents.py). This class depends on [ddpg.py](ddpg.py) and  [model.py](model.py). The first define one single agent following [DDPG algorithm](https://arxiv.org/abs/1509.02971) and the second define the network chosen for an agent.
+The agents (2) are implemented in [Agents.py](Agents.py). This class depends on [ddpg.py](ddpg.py) and  [model.py](model.py). The first one define a single agent following [DDPG algorithm](https://arxiv.org/abs/1509.02971) and the second one define the network chosen for an agent.
 
-[Agents.py] contiene la definicion de n agentes independientes que pueden aprender de su propia experiencia o de la experiencia de todos.
+[Agents.py](Agents.py) contiene la definicion de n agentes independientes que pueden aprender de su propia experiencia o de la experiencia de todos.
 Veremos varias posibilidades segun lo que introduzcamos en la memoria de experiencia en la fase de aprendizaje:
+[Agents.py](Agents.py) contains the definition of n independent agents who can learn from their own experience or from everyone's experience.
+Also it contains an implementation of Multi-Agent scheme acording to the paper [Multi Agent Actor Critic for Mixed Cooperative Competitive environments](https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf) by [OpenAI]().
+We will see several possibilities according to what we enter in the experience replay buffer at the learning phase:
 
 1. Each agent learns from its own experience. Experience replay buffer is feeded with the following tuples:
 
