@@ -29,6 +29,7 @@ We will see several possibilities according to what we enter in the experience r
 </p>
 
 2. Each agent learns from the experience of all agents. Experience replay buffer is feeded with the following tuples:
+3. 
 
 <p align="center">
   <img src="images/Experience-all.png">
