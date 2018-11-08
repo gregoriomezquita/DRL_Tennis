@@ -68,7 +68,7 @@ Regarding the exploratory action noise several possibilities have been implement
 
 It is considered that the agents have learned when they get a +0.5 combined reward for 100 episodes.
 
-## 1.- First steps
+## 2.- First steps
 
 I started out with the DDPG agent from a [previous project](https://github.com/gregoriomezquita/ml-agents/tree/master/Reacher).
 
@@ -125,7 +125,7 @@ config= {
 }
 ```
 
-## 2.- Hyperparameters selection
+## 3.- Hyperparameters selection
 
 
 
@@ -237,7 +237,7 @@ Changing `batch_size= 512` we get the following:
 | Normal | self | yes | [64, 64], [256, 256] | 1785 | 0.5 |
 | Normal | self | yes | [128, 128], [512, 512] | 1416 | 1.7 |
 
-## 3.- Solution
+## 4.- Solution
 
 
 <p align="center">
@@ -247,11 +247,11 @@ Changing `batch_size= 512` we get the following:
 </p>
 
 
-## 4.- Conclusions
+## 5.- Conclusions
 1. Parameter noise puede ser mejor que otros tipos de ruido.
 2. Debido a la naturaleza simerica de los jugadores de tennis los jugadores pueden aprender sin necesidad de un esquema multi-agente.
 3. Criterio de resolución.
-## 5.- Improvements
+## 6.- Improvements
 1. Probar otros tipos de ruido exploratorio.
 2. Modificar tau para ver las consecuencias.
 3. Probar en entornos con jugadores con diferentes roles.
