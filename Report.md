@@ -34,7 +34,7 @@ We will see several possibilities according to what we enter in the experience r
   <img src="images/Experience-all.png">
   <br>
 </p>
-3. Multi-agent. Experience replay buffer is feeded with the following tuples:
+ 3. Multi-agent. Experience replay buffer is feeded with the following tuples:
 
         - Self experience:
         
@@ -278,7 +278,7 @@ An example of the players playing:
 ## 5.- Conclusions
 1. Parameter action noise can work better than other types of noise.
 2. Due to the symmetrical nature of tennis players they can learn without the need for a multi-agent scheme.
-3. Criterio de resolución.
+3. Resolution criteria. It's better to select agents that behave well in task execution rather than in the speed of learning.
 ## 6.- Improvements
 1. Test other types of exploratory action noise.
 2. Modify tau and discount factor to see the consequences.
