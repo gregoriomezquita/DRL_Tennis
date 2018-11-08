@@ -19,7 +19,6 @@ The agents (2) are implemented in [Agents.py](Agents.py). This class depends on 
 </p>
 
 We will see several possibilities according to what we enter in the experience replay buffer at the learning phase:
-
 1. Each agent learns from its own experience. Experience replay buffer is feeded with the following tuples:
 
 <p align="center">
@@ -27,6 +26,7 @@ We will see several possibilities according to what we enter in the experience r
   <br>
 </p>
 2. Each agent learns from the experience of all agents. Experience replay buffer is feeded with the following tuples:
+
 <p align="center">
   <img src="images/Experience-all.png">
   <br>
