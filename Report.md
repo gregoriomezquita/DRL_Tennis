@@ -196,6 +196,13 @@ config= {
     "multi-agent": False,
 }
 ```
+
+<p align="center">
+  <img src="images/Agents-noisy-476.png">
+  <br>
+  <em><b>Fig. 7: First results</b></em>
+</p>
+
 resulting in agents learning in **476 episodes**.
 
 
