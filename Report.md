@@ -18,7 +18,7 @@ Also it contains an implementation of Multi-Agent scheme acording to the paper [
 <p align="center">
   <img src="images/MARL.png">
   <br>
-  <em><b>Fig. 1: Self-experience Ornstein-Uhlenbeck noise comparation</b></em>
+  <em><b>Fig. 1: Multi-Agent scheme</b></em>
 </p>
 We will see several possibilities according to what we enter in the experience replay buffer at the learning phase:
 
