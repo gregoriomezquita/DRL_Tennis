@@ -197,7 +197,7 @@ config= {
 resulting in agents learning in **476 episodes**.
 
 
-Normalmente se busca el mejor conjunto de hyper parametros que nos dé un mejo resultado en términos de rapidez de aprendizaje. Sin embargo no siempre este criterio conduce a un desempeño mejor de los jugadores. Para comparar resultados es necesario que los agentes, una vez que han aprendido, jueguen 100 partidas y ver cuál es su media.
+Normalmente se busca el mejor conjunto de hyper parametros que nos dé un mejor resultado en términos de rapidez de aprendizaje. Sin embargo no siempre este criterio conduce a un desempeño mejor de los jugadores. Para comparar resultados es necesario que los agentes, una vez que han aprendido, jueguen 100 partidas y ver cuál es su media.
 La siguiente es una tabla que incluye la puntuacion media en 100 partidas en la última columna:
 
 | Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
