@@ -51,6 +51,7 @@ where o<sub>t</sub> is the concatenation of all agent's states and a<sub>t</sub>
 Thus in multi-agent case, critic state and action sizes are defined:
 
 `critic_state_size= state_size * num_agents`
+
 `critic_action_size= action_size * num_agents`
 
 Tambien he introducido otro enfoque para el ruido exploratorio tal como se sugiere en [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/).
