@@ -239,21 +239,31 @@ The following is a table that includes the average score in 100 games in the las
 | Normal | self | yes | [64, 32], [256, 128] | 1221 | 1.6 |
 | Normal | all | yes | [64, 32], [256, 128] | 2000+ | 0.1 |
 
-Changing `batch_size= 512` we get the following:
-
-| Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
-| :---: | :---: | :---: | :---: | ---: | ---: |
-| Param | self | yes | [64, 64], [256, 256] | 1850 | 0.7 |
-| Param | self | yes | [128, 128], [512, 512] | 1665 | 1.8 |
-| Param | all | yes | [128, 128], [512, 512] | 1851 | 0.3 |
-| OU | self | yes | [64, 64], [256, 256] | 1683 | 1.9 |
-| No | self | yes | [64, 64], [256, 256] | 1903 | 2.2 |
-| No | all | yes | [64, 64], [256, 256] | 1644 | 0.7 |
-| Normal | self | yes | [64, 64], [256, 256] | 1785 | 0.5 |
-| Normal | self | yes | [128, 128], [512, 512] | 1416 | 1.7 |
 
 
 ## 4.- Solution
+
+Taking into account all of the above, the best set of hyperparameters is the following:
+
+```
+config= {
+    "seed": seed,
+    "actor_lr": 1e-3,
+    "critic_lr": 1e-3,
+    "actor_nodes": [32, 32],
+    "critic_nodes": [256, 256],
+    "batch_size": 256,
+    "memory_size": 100000,
+    "discount": 0.9,
+    "tau": 1e-3,
+    "critic_l2_reg": 0.0,  # 1e-2
+    "action_noise": "Param",    # Options: No, Normal, OU, Param
+    "sigma": 0.1,            # OUNoise, Normal
+    "experience": "all",     # Options: self, all
+    "multi-agent": False,
+}
+```
+ 
 
 
 <p align="center">
