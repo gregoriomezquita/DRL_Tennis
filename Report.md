@@ -11,25 +11,26 @@ The third and last cell is to see how the agents behave once trained.
 The agents (2) are implemented in [Agents.py](Agents.py). This class depends on [ddpg.py](ddpg.py) and  [model.py](model.py). The first define one single agent following [DDPG algorithm](https://arxiv.org/abs/1509.02971) and the second define the network chosen for an agent.
 
 [Agents.py] contiene la definicion de n agentes independientes que pueden aprender de su propia experiencia o de la experiencia de todos.
-Veremos tres tipos de implementación:
+Veremos varias posibilidades segun lo que introduzcamos en la memoria de experiencia en la fase de aprendizaje:
 
-1.- Cada agente aprende de su propia experiencia. 
+1. Each agent learns from its own experience. Experience replay buffer is feeded with the following tuples:
 
 <p align="center">
   <img src="images/Experience-self.png">
   <br>
 </p>
-2.- Cada agente aprende de la experiencia de todos.
+2. Each agent learns from the experience of all agents. Experience replay buffer is feeded with the following tuples:
 <p align="center">
   <img src="images/Experience-all.png">
   <br>
 </p>
-3.- Multi-agent. Critic part of each agent is feeded with the following tuples
+3. Multi-agent. Experience replay buffer is feeded with the following tuples:
+   - Self experience:
 <p align="center">
   <img src="images/Experience-ma.png">
   <br>
 </p>
-where o<sub>t</sub> is the concatenation of all agent's observation plus their actions.
+where o<sub>t</sub> is the concatenation of all agent's states and a<sub>t</sub> is the concatenation of all agents actions.
 
 Tambien he introducido otro enfoque para el ruido exploratorio tal como se sugiere en [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/).
 Para ello sustituyo todos los Linear layers del actor por [NoisyLinear](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py) layers como sugiere [jvmancuso](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py).
