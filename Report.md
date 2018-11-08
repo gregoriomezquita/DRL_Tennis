@@ -234,7 +234,9 @@ The following is a table that includes the average score in 100 games in the las
 | Normal | all | yes | [64, 32], [256, 128] | 2000+ | 0.1 |
 
 
+
 Changing `batch_size= 512` we get the following:
+
 
 
 | Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
