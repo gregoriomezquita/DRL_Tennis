@@ -14,6 +14,12 @@ The agents (2) are implemented in [Agents.py](Agents.py). This class depends on 
 Veremos varias posibilidades segun lo que introduzcamos en la memoria de experiencia en la fase de aprendizaje:
 [Agents.py](Agents.py) contains the definition of n independent agents who can learn from their own experience or from everyone's experience.
 Also it contains an implementation of Multi-Agent scheme acording to the paper [Multi Agent Actor Critic for Mixed Cooperative Competitive environments](https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf) by [OpenAI]().
+
+<p align="center">
+  <img src="images/MARL.png">
+  <br>
+  <em><b>Fig. 1: Self-experience Ornstein-Uhlenbeck noise comparation</b></em>
+</p>
 We will see several possibilities according to what we enter in the experience replay buffer at the learning phase:
 
 1. Each agent learns from its own experience. Experience replay buffer is feeded with the following tuples:
