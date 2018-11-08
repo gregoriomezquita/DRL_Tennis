@@ -1,6 +1,8 @@
 
 # Tennis project report.
 
+## 1. Description.
+
 In this paper we are going to do an analysis of the [Deep Deterministic Policy Gradient](https://arxiv.org/abs/1509.02971) algorithm in the Tennis environment of [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents) with the competition of 2 agents playing tennis.
 
 To follow this project you can execute the python notebook [Tennis.ipynb](Tennis.ipynb). 
