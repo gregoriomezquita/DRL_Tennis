@@ -106,6 +106,7 @@ Critic(
 The following hyperparameters are the starting point:
 ```
 config= {
+    "seed": seed,
     "actor_lr": 1e-3,
     "critic_lr": 1e-3,
     "actor_nodes": [32, 32],
@@ -113,10 +114,12 @@ config= {
     "batch_size": 256,
     "memory_size": 100000,
     "discount": 0.9,
-    "tau": 0.001,
-    "action_noise": "No",    # Options: No, Normal, OU, 
-    "sigma": 0.1,            # OUNoise, Normal
+    "tau": 1e-3,
     "critic_l2_reg": 0.0,  # 1e-2
+    "action_noise": "OU",    # Options: No, Normal, OU, Param
+    "sigma": 0.1,            # OUNoise, Normal
+    "experience": "self",     # Options: self, all
+    "multi-agent": False,
 }
 ```
 
