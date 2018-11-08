@@ -27,7 +27,12 @@ Veremos varias posibilidades segun lo que introduzcamos en la memoria de experie
 3. Multi-agent. Experience replay buffer is feeded with the following tuples:
    - Self experience:
 <p align="center">
-  <img src="images/Experience-ma.png">
+  <img src="images/Experience-ma-self.png">
+  <br>
+</p>
+   - All experience:
+<p align="center">
+  <img src="images/Experience-ma-all.png">
   <br>
 </p>
 where o<sub>t</sub> is the concatenation of all agent's states and a<sub>t</sub> is the concatenation of all agents actions.
