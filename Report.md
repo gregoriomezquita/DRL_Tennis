@@ -38,9 +38,6 @@ We will see several possibilities according to what we enter in the experience r
 
 3. Multi-agent. Experience replay buffer is feeded with the following tuples:
 
-
- 3. 
-
         - Self experience:
         
 <p align="center">
