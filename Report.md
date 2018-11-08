@@ -153,7 +153,7 @@ What happens if we combine the experience of all the agents in such a way that e
   <em><b>Fig. 3: All-experience noise comparison</b></em>
 </p>
 
-
+Playing with other hyperparameters result in:
 
 <p align="center">
   <img src="images/Actor-lr.png">
