@@ -54,6 +54,8 @@ Thus in multi-agent case, critic state and action sizes are defined:
 
 `critic_action_size= action_size * num_agents`
 
+
+Regarding the exploratory action noise several possibilities have been implemented:
 Tambien he introducido otro enfoque para el ruido exploratorio tal como se sugiere en [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/).
 Para ello sustituyo todos los Linear layers del actor por [NoisyLinear](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py) layers como sugiere [jvmancuso](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py).
 
