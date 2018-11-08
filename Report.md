@@ -263,7 +263,7 @@ config= {
     "multi-agent": False,
 }
 ```
-This is a configuration that is not multi-agent but has an **average ruuning score of 2.1**. He is also able to learn in only **794 episodes**. 
+This is a configuration that is **not multi-agent** but has an **average running score of 2.1**. He is also able to learn in only **794 episodes**. 
 
 An example of the players playing:
 
