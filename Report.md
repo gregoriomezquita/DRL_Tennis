@@ -27,6 +27,7 @@ We will see several possibilities according to what we enter in the experience r
   <img src="images/Experience-self.png">
   <br>
 </p>
+
 2. Each agent learns from the experience of all agents. Experience replay buffer is feeded with the following tuples:
 
 <p align="center">
