@@ -48,6 +48,9 @@ We will see several possibilities according to what we enter in the experience r
 </p>
 
 where o<sub>t</sub> is the concatenation of all agent's states and a<sub>t</sub> is the concatenation of all agents actions.
+Thus in multi-agent case, critic state and action sizes are defined:
+`critic_state_size= state_size * num_agents`
+`critic_action_size= action_size * num_agents`
 
 Tambien he introducido otro enfoque para el ruido exploratorio tal como se sugiere en [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/).
 Para ello sustituyo todos los Linear layers del actor por [NoisyLinear](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py) layers como sugiere [jvmancuso](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py).
