@@ -137,7 +137,7 @@ It is important to point out that in order to compare the results it is necessar
 <p align="center">
   <img src="images/Self-experience-OU-noise.png">
   <br>
-  <em><b>Fig. 1: Self-experience Ornstein-Uhlenbeck noise comparation</b></em>
+  <em><b>Fig. 2: Self-experience Ornstein-Uhlenbeck noise comparation</b></em>
 </p>
 
 
@@ -150,7 +150,7 @@ What happens if we combine the experience of all the agents in such a way that e
 <p align="center">
   <img src="images/Combined-experience-noise.png">
   <br>
-  <em><b>Fig. 2: Combined-experience noise comparison</b></em>
+  <em><b>Fig. 3: All-experience noise comparison</b></em>
 </p>
 
 
