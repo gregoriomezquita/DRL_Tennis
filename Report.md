@@ -158,19 +158,19 @@ What happens if we combine the experience of all the agents in such a way that e
 <p align="center">
   <img src="images/Actor-lr.png">
   <br>
-  <em><b>Fig. 3: Diferent Actor learning rates</b></em>
+  <em><b>Fig. 4: Diferent Actor learning rates</b></em>
 </p>
 
 <p align="center">
   <img src="images/Critic-lr.png">
   <br>
-  <em><b>Fig. 3: Diferent Critic learning rates</b></em>
+  <em><b>Fig. 5: Diferent Critic learning rates</b></em>
 </p>
 
 <p align="center">
   <img src="images/Agents-nodes.png">
   <br>
-  <em><b>Fig. 3: Diferent Actor-Critic node size</b></em>
+  <em><b>Fig. 6: Diferent Actor-Critic node size</b></em>
 </p>
 
 Normalmente se busca el mejor conjunto de hyper parametros que nos dé un mejo resultado en términos de rapidez de aprendizaje. Sin embargo no siempre este criterio conduce a un desempeño mejor de los jugadores. Para comparar resultados es necesario que los agentes, una vez que han aprendido, jueguen 100 partidas y ver cuál es su media.
