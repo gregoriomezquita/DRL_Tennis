@@ -25,6 +25,7 @@ Veremos varias posibilidades segun lo que introduzcamos en la memoria de experie
   <br>
 </p>
 3. Multi-agent. Experience replay buffer is feeded with the following tuples:
+
    - Self experience:
 <p align="center">
   <img src="images/Experience-ma-self.png">
