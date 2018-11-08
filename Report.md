@@ -18,6 +18,7 @@ It also contains an implementation of Multi-Agent scheme acording to the paper [
   <br>
   <em><b>Fig. 1: Multi-Agent scheme</b></em>
 </p>
+
 We will see several possibilities according to what we enter in the experience replay buffer at the learning phase:
 
 1. Each agent learns from its own experience. Experience replay buffer is feeded with the following tuples:
