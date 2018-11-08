@@ -210,6 +210,7 @@ Normally, we search for the best set of hyper parameters that gives us a better 
 
 The following is a table that includes the average score in 100 games in the last column, including the multi-agent scheme:
 
+
 | Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
 | :---: | :---: | :---: | :---: | ---: | ---: |
 | Param | all | no | [32, 32], [128, 128] | 476 | 1.3 |
@@ -232,7 +233,9 @@ The following is a table that includes the average score in 100 games in the las
 | Normal | self | yes | [64, 32], [256, 128] | 1221 | 1.6 |
 | Normal | all | yes | [64, 32], [256, 128] | 2000+ | 0.1 |
 
+
 Changing `batch_size= 512` we get the following:
+
 
 | Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
 | :---: | :---: | :---: | :---: | ---: | ---: |
@@ -244,6 +247,7 @@ Changing `batch_size= 512` we get the following:
 | No | all | yes | [64, 64], [256, 256] | 1644 | 0.7 |
 | Normal | self | yes | [64, 64], [256, 256] | 1785 | 0.5 |
 | Normal | self | yes | [128, 128], [512, 512] | 1416 | 1.7 |
+
 
 ## 4.- Solution
 
