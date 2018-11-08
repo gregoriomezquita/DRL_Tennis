@@ -276,10 +276,10 @@ An example of the players playing:
 
 
 ## 5.- Conclusions
-1. Parameter action noise puede ser mejor que otros tipos de ruido.
-2. Debido a la naturaleza simerica de los jugadores de tennis los jugadores pueden aprender sin necesidad de un esquema multi-agente.
+1. Parameter action noise can work better than other types of noise.
+2. Due to the symmetrical nature of tennis players they can learn without the need for a multi-agent scheme.
 3. Criterio de resolución.
 ## 6.- Improvements
-1. Probar otros tipos de ruido exploratorio.
-2. Modificar tau para ver las consecuencias.
-3. Probar en entornos con jugadores con diferentes roles.
+1. Test other types of exploratory action noise.
+2. Modify tau and discount factor to see the consequences.
+3. Test environments with players with different roles.
