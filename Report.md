@@ -205,7 +205,7 @@ config= {
 
 resulting in agents learning in **476 episodes**.
 
-En general el aprendizaje es muy inestable teniendo picos pronunciados para despues bajar a casi cero. Es necesario pues quedarnos con los parametros de los actores que consiguen un mejor score en lugar de los ultimos que pueden ser muy malos. En el siguiente grafico podemos ver un ejemplo de como se comporta el score durante el aprendizaje:
+In general, training is very unstable, having pronounced peaks and then falling to almost zero. It is necessary to store the actor's parameters that get a better score instead of the last ones that can be very bad. In the following graph we can see an example of how the score behaves during the learning phase:
 
 <p align="center">
   <img src="images/Agents-1000-episodes.png">
