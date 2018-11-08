@@ -55,14 +55,13 @@ Thus in multi-agent case, critic state and action sizes are defined:
 `critic_action_size= action_size * num_agents`
 
 
-Regarding the exploratory action noise several possibilities have been implemented:
+
+Regarding the exploratory action noise several possibilities have been implemented in [noise.py](noise.py):
+
 1. Ornstein-Uhlenbeck noise.
 2. No noise
 3. Normal distribution noise.
-4. Parameter noise.
-
-Tambien he introducido otro enfoque para el ruido exploratorio tal como se sugiere en [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/).
-Para ello sustituyo todos los Linear layers del actor por [NoisyLinear](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py) layers como sugiere [jvmancuso](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py).
+4. Parameter noise as suggested in [Better Exploration with Parameter Noise](https://blog.openai.com/better-exploration-with-parameter-noise/). The implementation of [jvmancuso](https://github.com/jvmancuso/ParamNoise/blob/master/utils/noisy.py) has been followed for being very elegant. To do this I substitute all the actor's `Linear` layers by `NoisyLinear` layers defined in [noisy.py](noisy.py).
 
 It is considered that the agents have learned when they get a +0.5 combined reward for 100 episodes.
 
