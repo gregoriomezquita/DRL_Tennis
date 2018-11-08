@@ -205,11 +205,17 @@ config= {
 
 resulting in agents learning in **476 episodes**.
 
+En general el aprendizaje es muy inestable teniendo picos pronunciados para despues bajar a casi cero. Es necesario pues quedarnos con los parametros de los actores que consiguen un mejor score en lugar de los ultimos que pueden ser muy malos. En el siguiente grafico podemos ver un ejemplo de como se comporta el score durante el aprendizaje:
+
+<p align="center">
+  <img src="images/Agents-1000-episodes.png">
+  <br>
+  <em><b>Fig. 8: Learning example</b></em>
+</p>
 
 Normally, we search for the best set of hyper parameters that gives us a better result in terms of learning speed. However, this criterion does not always lead to a better performance of the players. To compare results it is necessary that the agents, once they have learned, play 100 games and see what their running average is.
 
 The following is a table that includes the average score in 100 games in the last column, including the multi-agent scheme:
-
 
 | Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
 | :---: | :---: | :---: | :---: | ---: | ---: |
@@ -233,11 +239,7 @@ The following is a table that includes the average score in 100 games in the las
 | Normal | self | yes | [64, 32], [256, 128] | 1221 | 1.6 |
 | Normal | all | yes | [64, 32], [256, 128] | 2000+ | 0.1 |
 
-
-
 Changing `batch_size= 512` we get the following:
-
-
 
 | Noise | Experience | Multi-agent | Nodes | Solved in | Running avg. score |
 | :---: | :---: | :---: | :---: | ---: | ---: |
@@ -255,14 +257,14 @@ Changing `batch_size= 512` we get the following:
 
 
 <p align="center">
-    <img src="images/Tennis-first-success-node-128-sigma-0.1.gif" alt="dominating_sets_example2"/>
+    <img src="images/Tennis-first-success-node-128-sigma-0.1.gif" />
     <br>
     <em><b>Fig. 2: Solution behaviour</b></em>
 </p>
 
 
 ## 5.- Conclusions
-1. Parameter noise puede ser mejor que otros tipos de ruido.
+1. Parameter action noise puede ser mejor que otros tipos de ruido.
 2. Debido a la naturaleza simerica de los jugadores de tennis los jugadores pueden aprender sin necesidad de un esquema multi-agente.
 3. Criterio de resolución.
 ## 6.- Improvements
