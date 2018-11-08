@@ -174,6 +174,7 @@ Playing with other hyperparameters result in:
   <em><b>Fig. 6: Diferent Actor-Critic node size</b></em>
 </p>
 
+
 According to all the above, the best configuration in terms of learning speed is:
 ```
 config= {
@@ -186,14 +187,15 @@ config= {
     "memory_size": 100000,
     "discount": 0.9,
     "tau": 1e-3,
-    "critic_l2_reg": 0.0,  # 1e-2
+    "critic_l2_reg": 0.0,  
     "action_noise": "Param",    # Options: No, Normal, OU, Param
-    "sigma": 0.1,            # OUNoise, Normal
-    "experience": "all",     # Options: self, all
+    "sigma": 0.1,               # OUNoise, Normal
+    "experience": "all",        # Options: self, all
     "multi-agent": False,
 }
 ```
 resulting in agents learning in **476 episodes**.
+
 
 Normalmente se busca el mejor conjunto de hyper parametros que nos dé un mejo resultado en términos de rapidez de aprendizaje. Sin embargo no siempre este criterio conduce a un desempeño mejor de los jugadores. Para comparar resultados es necesario que los agentes, una vez que han aprendido, jueguen 100 partidas y ver cuál es su media.
 La siguiente es una tabla que incluye la puntuacion media en 100 partidas en la última columna:
