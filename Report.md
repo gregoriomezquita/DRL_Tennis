@@ -263,13 +263,14 @@ config= {
     "multi-agent": False,
 }
 ```
- 
+This is a configuration that is not multi-agent but has an **average ruuning score of 2.1**. He is also able to learn in only **794 episodes**. 
 
+An example of the players playing:
 
 <p align="center">
-    <img src="images/Tennis-first-success-node-128-sigma-0.1.gif" />
+    <img src="images/Tennis-play-example.gif" />
     <br>
-    <em><b>Fig. 2: Solution behaviour</b></em>
+    <em><b>Fig. 9: Solution behaviour</b></em>
 </p>
 
 
